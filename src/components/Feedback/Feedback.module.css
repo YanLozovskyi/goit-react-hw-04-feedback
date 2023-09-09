@@ -1,0 +1,29 @@
+.feedback-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #4caf50;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #4caf50;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: rgb(131, 131, 131) 0px 0px 15px 5px;
+}
+
+.feedback-button:hover {
+  background-color: #45a049;
+  color: white;
+  border-color: #45a049;
+  box-shadow: rgb(131, 131, 131) 0px 0px 15px 10px;
+}
